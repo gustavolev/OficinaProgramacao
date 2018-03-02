@@ -1,0 +1,31 @@
+02) mkdir Seunome --> cria diretorio
+
+03) mkdir -p Seunome/git/post --> cria arvore de diretorios
+
+04) rm Nome --> deletar arquivo
+    touch Nome --> cria arquivo // atualiza data
+    rm -r Nome --> deleta diretorio
+
+05) rm -rf Nome --> força remoção
+
+06) scp -r usuario@ip:~/Arquivos .  --> pegar arquivos de outro usuario
+    ~ --> /home/usuario
+    ssh usuario@ip --> para no computador
+
+07) ls -l --> exibir arquivos por data
+
+08) ps --> ver PID, processos atual
+    [PID NUM] kill --> finaliza processo
+
+09) ps axu --> mostrar todos os processos
+
+10) touch --> atualiza data
+
+11) man --> mostra manual dos comandos
+
+12) cat arquivo.txt --> mostra conteudo do arquivo
+
+13) cat -b arquivo.txt --> mostra linhas dos arquivos, menos as em branco.
+
+14) cat -A arquivo.txt --> nistra detalhes dos aquivos.
+
