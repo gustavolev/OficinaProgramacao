@@ -27,5 +27,30 @@
 
 13) cat -b arquivo.txt --> mostra linhas dos arquivos, menos as em branco.
 
-14) cat -A arquivo.txt --> nistra detalhes dos aquivos.
+14) cat -A arquivo.txt --mostra detalhes dos aquivos.
+
+15) tac arquivo.txt --> mostra o arquivo de baixo pra cima
+
+16) tail arquivo.txt --> mostra apenas a parte de baixo do arquivo
+
+17) head arquivo.txt --> msotra apenas a parte de cima do arquivo
+
+18) wc arquivo.txt --> conta as linhas, palavras e caracteres do arquivo
+
+19) head -n3 arquivo.txt | wc -c --> mostra as 3 primeiras linhas e qntde palavras
+
+20) sort arquivo.txt --> ordem alfabetica
+
+21) tail /etc/passwd | sort -k3 ":"
+
+22) uniq -u arquivo.txt --> não aparece string repetida
+
+23) uniq -d arquivo.txt --> apenas o que é repetido
+
+25) uniq -c arquito.txt --> conta as strings repetidas
+
+26) sort -n  ResultadoMega2017 | uniq -c | sort -n | tail -n1
+
+
+
 
