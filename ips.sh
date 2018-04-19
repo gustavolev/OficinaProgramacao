@@ -23,11 +23,11 @@ for i in $(seq "1" "$LINES")
 do
 	IP=$(head -n${i} IP.txt | tail -n 1)
 	MAC=$(head -n${i} MAC.txt | tail -n 1)
-#	SO=$(nmap -O $IP)
+	SO=$(nmap -O $IP)
 	echo "$IP" >> RELATORIO.txt
 	echo "$MAC" >> RELATORIO.txt
-#	echo "$SO" > RELATORIO.txt
+	echo "$SO" > RELATORIO.txt
 done
 
 
-ssmtp gusmu98@hotmail.com < RELATORIO.txt
+ssmtp teste123@hotmail.com < RELATORIO.txt
